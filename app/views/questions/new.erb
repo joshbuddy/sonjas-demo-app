@@ -1,0 +1,10 @@
+<h2>Type a new question!</h2>
+
+<% form_for @question do |f| %>
+
+  <%= f.error_messages %>  
+
+  <p><%=f.label :name%><br>
+  <%=f.text_field :name%></p>
+  <p><%=f.submit%></p>
+<% end %>

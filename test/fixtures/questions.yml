@@ -1,0 +1,7 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+josh_question:
+  name: "What is Josh's problem?"
+  
+sonja_question:
+  name: "Why does Sonja enjoy so much cheese?"
