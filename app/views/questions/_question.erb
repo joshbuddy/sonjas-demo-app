@@ -1,3 +1,10 @@
 <h2>Question:</h2>
 <p>Name: <%=question.name%></p>
+
+<ol>
+<% question.answers.each do |answer| %>
+  <li><%=h answer%></li>
+<% end %>
+</ol>
 <%=link_to 'take this question', question%>
+

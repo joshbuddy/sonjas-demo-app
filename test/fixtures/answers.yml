@@ -1,0 +1,10 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+josh_question_answer1:
+  question: josh_question
+  name: "Josh has no brains."
+
+josh_question_answer2:
+  question: josh_question
+  name: "Josh has a small nutsack."
+
